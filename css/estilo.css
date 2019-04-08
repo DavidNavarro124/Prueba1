@@ -1,0 +1,30 @@
+body{
+	background: url(../img/numeros.png) no-repeat, url(../img/fondo.png);
+}
+
+header{
+	background: url(../img/lineas.png), url(../img/cintillo.png);
+	padding: 16px;
+	position: relative;
+}
+
+header::after{
+	content: "";
+	height: 3px;
+	background: url(../img/barra.png);
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+header h1{
+	margin: 0;
+}
+
+
+img{
+	
+}
+
